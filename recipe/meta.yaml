@@ -29,22 +29,26 @@ requirements:
   host:
     - r-base
     - r-r.utils
+    - r-arrow
     - r-curl
     - r-data.table
     - r-downloader
     - r-httr
     - r-jsonlite
+    - r-jose
     - r-pbapply
     - r-stringr
     - r-tidyr
   run:
     - r-base
     - r-r.utils
+    - r-arrow
     - r-curl
     - r-data.table
     - r-downloader
     - r-httr
     - r-jsonlite
+    - r-jose
     - r-pbapply
     - r-stringr
     - r-tidyr
