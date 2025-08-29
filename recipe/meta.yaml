@@ -31,7 +31,7 @@ requirements:
     - r-r.utils
     - r-arrow
     - r-curl
-    - r-data.table
+    - r-data.table >=1.17.8
     - r-downloader
     - r-httr
     - r-jsonlite
@@ -44,7 +44,7 @@ requirements:
     - r-r.utils
     - r-arrow
     - r-curl
-    - r-data.table
+    - r-data.table >=1.17.8
     - r-downloader
     - r-httr
     - r-jsonlite
