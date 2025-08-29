@@ -1,4 +1,4 @@
-{% set version = "3.0.0" %}
+{% set version = "3.0.1" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,7 +9,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/neonUtilities_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/neonUtilities/neonUtilities_{{ version }}.tar.gz
-  sha256: a4e3b2e5a43806abb3fce33ebb867b066d7b96e143b4c7f754f3bc8337920430
+  sha256: 3437a0cef9142f9cb91d311cd81867e86a33dec842f152d48fb84c7900f8a6c9
 
 build:
   number: 0
@@ -31,7 +31,7 @@ requirements:
     - r-r.utils
     - r-arrow
     - r-curl
-    - r-data.table
+    - r-data.table >=1.17.8
     - r-downloader
     - r-httr
     - r-jsonlite
@@ -44,7 +44,7 @@ requirements:
     - r-r.utils
     - r-arrow
     - r-curl
-    - r-data.table
+    - r-data.table >=1.17.8
     - r-downloader
     - r-httr
     - r-jsonlite
