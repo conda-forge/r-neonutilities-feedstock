@@ -33,11 +33,12 @@ requirements:
     - r-curl
     - r-data.table >=1.17.8
     - r-downloader
+    - r-dplyr
     - r-httr
-    - r-jsonlite
     - r-jose
+    - r-jsonlite
     - r-pbapply
-    - r-stringr
+    - r-rlang
     - r-tidyr
   run:
     - r-base
@@ -46,11 +47,12 @@ requirements:
     - r-curl
     - r-data.table >=1.17.8
     - r-downloader
+    - r-dplyr
     - r-httr
-    - r-jsonlite
     - r-jose
+    - r-jsonlite
     - r-pbapply
-    - r-stringr
+    - r-rlang
     - r-tidyr
 
 test:
