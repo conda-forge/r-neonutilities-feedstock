@@ -1,4 +1,4 @@
-{% set version = "3.0.1" %}
+{% set version = "3.0.2" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,10 +9,10 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/neonUtilities_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/neonUtilities/neonUtilities_{{ version }}.tar.gz
-  sha256: 3437a0cef9142f9cb91d311cd81867e86a33dec842f152d48fb84c7900f8a6c9
+  sha256: 63757d0553e8dce62b03d85819e45da5d694da81067172d09e1709780de119a0
 
 build:
-  number: 1
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
