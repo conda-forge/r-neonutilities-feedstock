@@ -1,4 +1,4 @@
-{% set version = "3.0.3" %}
+{% set version = "4.0.0" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,7 +9,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/neonUtilities_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/neonUtilities/neonUtilities_{{ version }}.tar.gz
-  sha256: e472c97a0bc18f01227b451f0e70f583c83a58bdf35a2bd352401860b530cad6
+  sha256: 72c50510b19d69e482e1a8791f03363e63785f640d62d671d647391b2b4128c6
 
 build:
   number: 0
