@@ -40,6 +40,7 @@ requirements:
     - r-pbapply
     - r-rlang
     - r-tidyr
+    - r-duckdbfs
   run:
     - r-base
     - r-r.utils
@@ -54,6 +55,7 @@ requirements:
     - r-pbapply
     - r-rlang
     - r-tidyr
+    - r-duckdbfs
 
 test:
   requires:
