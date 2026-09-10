@@ -19,7 +19,6 @@ provides tools that aid in discovering, downloading, and reformatting data prior
 to use in analyses. This includes downloading data via the API, merging data tables
 by type, and converting formats. For more information, see the readme file at <https://github.com/NEONScience/NEON-utilities>.
 
-
 Current build status
 ====================
 
@@ -51,31 +50,73 @@ conda config --add channels conda-forge
 conda config --set channel_priority strict
 ```
 
-Once the `conda-forge` channel has been enabled, `r-neonutilities` can be installed with `conda`:
+How to use
+----------
+
+<details>
+<summary>With conda</summary>
 
 ```
 conda install r-neonutilities
 ```
 
-or with `mamba`:
+</details>
+
+<details>
+<summary>With mamba</summary>
 
 ```
 mamba install r-neonutilities
 ```
 
-It is possible to list all of the versions of `r-neonutilities` available on your platform with `conda`:
+</details>
+
+<details>
+<summary>With pixi</summary>
+
+```
+# for adding to your local project
+pixi add r-neonutilities
+# for installing globally
+pixi global install r-neonutilities
+```
+
+</details>
+
+Search package versions
+-----------------------
+
+It is possible to list all of the versions of `r-neonutilities` available on your platform:
+
+<details>
+<summary>With conda</summary>
 
 ```
 conda search r-neonutilities --channel conda-forge
 ```
 
-or with `mamba`:
+</details>
+
+<details>
+<summary>With mamba</summary>
 
 ```
 mamba search r-neonutilities --channel conda-forge
 ```
 
-Alternatively, `mamba repoquery` may provide more information:
+</details>
+
+<details>
+<summary>With pixi</summary>
+
+```
+pixi search r-neonutilities --channel conda-forge
+```
+
+</details>
+
+<details>
+<summary>With mamba repoquery, which may provide more information</summary>
 
 ```
 # Search all versions available on your platform:
@@ -87,6 +128,8 @@ mamba repoquery whoneeds r-neonutilities --channel conda-forge
 # List dependencies of `r-neonutilities`:
 mamba repoquery depends r-neonutilities --channel conda-forge
 ```
+
+</details>
 
 
 About conda-forge
